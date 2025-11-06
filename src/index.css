@@ -1,0 +1,29 @@
+
+@import "tailwindcss";
+
+
+html, body, #root { 
+  height: 100%;
+  background: var(--color-neutral-50);
+  color: var(--color-neutral-700);
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("./assets/fonts/LEMONMILK-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("./assets/fonts/LEMONMILK-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Lemon Milk", sans-serif;
+}

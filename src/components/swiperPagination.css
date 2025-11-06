@@ -1,0 +1,21 @@
+/* Make sure bullets show where we want */
+.swiper-pagination {
+  bottom: 8px !important;
+  z-index: 50 !important;
+}
+
+/* Inactive bullets — short black dashes */
+.swiper-pagination-bullet {
+  width: 18px !important;
+  height: 4px !important;
+  border-radius: 999px !important;
+  background: #000 !important;
+  opacity: 0.5 !important;
+}
+
+/* Active bullet — wider & blue */
+.swiper-pagination-bullet-active {
+  width: 35px !important;
+  background: #2563eb !important; /* Tailwind blue-600 */
+  opacity: 1 !important;
+}
